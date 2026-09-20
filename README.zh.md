@@ -116,10 +116,6 @@ learn-pi/
 | 项目信任 | `coding-agent/src/core/trust-manager.ts` |
 | 内置工具（仅 8 个） | `coding-agent/src/core/tools/`（read、bash、edit、write、grep、find、ls、powershell） |
 
-## 与 learn-claude-code 的关系
-
-[learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) 以 Claude Code 为参照讲授 harness 工程：17 章、每章一个机制、Python + Anthropic API。本课程用同样的方法论剖析 pi——但 pi 颠倒了 Claude Code 的哲学，所以课程重点也随之颠倒：Claude Code 把机制**造进内核**，pi 把机制**推到扩展层**。第 7 章是全课程的收束：我们实现权限审批、子代理、MCP 式外部工具，**内核一行代码都不用改**。
-
 ## 许可
 
 MIT
